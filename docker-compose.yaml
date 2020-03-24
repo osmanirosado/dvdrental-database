@@ -19,5 +19,6 @@ services:
     ports:
       - 9096:80
     environment:
-      PGADMIN_DEFAULT_EMAIL: user@domain.com
-      PGADMIN_DEFAULT_PASSWORD: SuperSecret
+      PGADMIN_DEFAULT_EMAIL: ernesto
+      PGADMIN_DEFAULT_PASSWORD: example
+
