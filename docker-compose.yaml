@@ -3,7 +3,7 @@ services:
 
   db:
     build: .
-    image: dvdrental-database
+    image: osmanirosado/dvdrental-database
     restart: always
     environment:
       POSTGRES_PASSWORD: example
