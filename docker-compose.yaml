@@ -3,7 +3,7 @@ services:
 
   db:
     build: .
-    image: osmanirosado/dvdrental-database
+    image: osmanirosado/dvdrental-database:2019.05
     restart: always
     ports:
       - 9092:5432

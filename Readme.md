@@ -2,6 +2,12 @@
 
 Docker stack to explore PostgreSQL Sample Database
 
+## Build
+
+```[bash]
+docker-compose build db
+```
+
 ## Bibliography
 
 - https://hub.docker.com/_/postgres
