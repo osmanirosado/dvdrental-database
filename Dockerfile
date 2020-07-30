@@ -9,5 +9,5 @@ FROM postgres:12.2-alpine
 
 ENV DVD_RENTAL_DB=dvd_rental
 
-COPY --from=temporal /home/dvdrental.tar /root/dvdrental.tar
+COPY --from=temporal /home/dvdrental.tar /home/dvdrental.tar
 COPY init-db.sh /docker-entrypoint-initdb.d/init-db.sh
