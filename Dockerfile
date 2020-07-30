@@ -7,6 +7,6 @@ RUN unzip -q dvdrental.zip
 
 FROM postgres:12.2-alpine
 
-COPY --from=temporal /home/dvdrental.tar /dvdrental.tar
+COPY --from=temporal /home/dvdrental.tar /root/dvdrental.tar
 COPY init-db.sh /docker-entrypoint-initdb.d/init-db.sh
 
