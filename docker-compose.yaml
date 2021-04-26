@@ -4,7 +4,6 @@ services:
   db:
     build: .
     image: osmanirosado/dvdrental-database:2019.05
-    restart: always
     ports:
       - 9092:5432
     environment:
@@ -14,7 +13,6 @@ services:
 
   adminer:
     image: adminer:4.7.6
-    restart: always
     ports:
       - 9094:8080
     depends_on:
@@ -22,7 +20,6 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4:4.18
-    restart: always
     ports:
       - 9096:80
     environment:
