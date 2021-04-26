@@ -14,7 +14,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-## Bibliography
+## References
 
 - [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-sample-database/)
 - [Load PostgreSQL Sample Database](https://www.postgresqltutorial.com/load-postgresql-sample-database/)
