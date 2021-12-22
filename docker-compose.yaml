@@ -5,23 +5,23 @@ services:
     build: .
     image: osmanirosado/dvdrental-database:2019.05
     ports:
-      - 9092:5432
+      - "127.0.0.1:9092:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: example
       POSTGRES_PORT: 5432
 
   adminer:
-    image: adminer:4.8.0
+    image: adminer:4.8.1
     ports:
-      - 9094:8080
+      - "127.0.0.1:9094:8080"
     depends_on:
       - db
 
   pgadmin:
-    image: dpage/pgadmin4:5.2
+    image: dpage/pgadmin4:6.3
     ports:
-      - 9096:80
+      - "127.0.0.1:9096:80"
     environment:
       PGADMIN_DEFAULT_EMAIL: user@domanin.com
       PGADMIN_DEFAULT_PASSWORD: example
