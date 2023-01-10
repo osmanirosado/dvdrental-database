@@ -21,4 +21,3 @@ docker-compose up -d
 - [PostgreSQL Docker Image](https://hub.docker.com/_/postgres)
 - [pdAdmin4 Docker Image](https://hub.docker.com/r/dpage/pgadmin4)
 - [pgAdmin Container Deployment](https://www.pgadmin.org/docs/pgadmin4/4.18/container_deployment.html)
-- [Adminer Docker Image](https://hub.docker.com/_/adminer)

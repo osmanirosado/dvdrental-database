@@ -11,13 +11,6 @@ services:
       POSTGRES_PASSWORD: example
       POSTGRES_PORT: 5432
 
-  adminer:
-    image: adminer:4.8.1
-    ports:
-      - "127.0.0.1:9094:8080"
-    depends_on:
-      - db
-
   pgadmin:
     image: dpage/pgadmin4:6.18
     ports:
