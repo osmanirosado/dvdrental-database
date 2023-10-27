@@ -5,13 +5,13 @@ Docker stack to explore PostgreSQL Sample Database
 ## Build
 
 ```[bash]
-docker-compose build
+docker compose build
 ```
 
 ## Run
 
 ```[bash]
-docker-compose up -d
+docker compose up -d
 ```
 
 ## References
