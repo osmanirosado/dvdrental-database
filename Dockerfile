@@ -1,4 +1,4 @@
-FROM bash:5.0 AS temporal
+FROM bash:5.2 AS temporal
 
 WORKDIR /home
 
