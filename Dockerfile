@@ -5,7 +5,7 @@ WORKDIR /home
 RUN wget -q https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
 RUN unzip -q dvdrental.zip
 
-FROM postgres:16.3
+FROM postgres:17.2
 
 ENV DVD_RENTAL_DB=dvd_rental
 
